@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* colors */
+.black {
+  color: #1C232B;
+}
+
+.grey {
+  color: #6C7289
+}
+.cream {
+  color: #F2EAE2
+}
+
+.white {
+  color: #FFFFFF
+}
+
+.green-500 {
+  color: #3D8168
+}
+
+.green-700 {
+  color: #1A4032
+}
+
+/*Typography */
+
+.text-preset-1 {
+  font-family: 'Fraunces', sans-serif;
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 100%;
+  letter-spacing: 0;
+}
+
+.text-preset-2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 900;
+  line-height: 110%;
+  letter-spacing: 0;
+}
+
+.text-preset-3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 160%;
+  letter-spacing: 0;
+}
+
+.text-preset-4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: 0.3125rem;
+}
+
+.text-preset-5 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: 0;
+}
